@@ -1,7 +1,8 @@
 const Discord = require('discord.js');
 
 
-exports.run = function(client, message) {
+
+exports.run = async (client, message) => {
     let dönme = await message.channel.send({
         embed: {
             color: 0x00AE86,
@@ -24,14 +25,14 @@ exports.run = function(client, message) {
 };  
 
 exports.conf = {
-  enabled: true,
-  guildOnly: false,
+  enabled: true, 
+  guildOnly: false, 
   aliases: [],
-  permLevel: 0
+  permLevel: 0 
 };
 
 exports.help = {
-  name: 'stresçarkı',
-  description: 'Stres çarkı çevirir.',
+  name: 'stresçarkı', 
+  description: 'Sizin için bir stres çarkı çevirir.',
   usage: 'stresçarkı'
 };
