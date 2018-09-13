@@ -7,7 +7,7 @@ exports.run = function(client, message) {
         .setDescription("**YARDIM**")
         .addField("Komutlar:",
             "++anakomutlar: Ana komutları gösterir.",
-	    "++eğlencekomutları: Eğlence komutlarını gösterir.")
+	     "++eğlencekomutları: Eğlence komutlarını gösterir.")
 
 	message.channel.send(embed)
 
