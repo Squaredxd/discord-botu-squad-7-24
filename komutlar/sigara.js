@@ -9,7 +9,6 @@ exports.run = function(client, message) {
                 url: "https://imgyukle.com/i/S1qAj"
             }
         }
-    });
 };  
 
 exports.conf = {
