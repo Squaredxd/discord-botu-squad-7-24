@@ -5,9 +5,9 @@ exports.run = function(client, message) {
 
     const embed = new Discord.RichEmbed()
         .setDescription("**YARDIM**")
-        .setField("++eğlencekomutları: Eğlence komutlarını gösterir.",
-            "++anakomutlar: Ana komutları gösterir.")
-        
+        .addField("Komutlar:",
+            "++anakomutlar: Ana komutları gösterir.",
+	    "++eğlencekomutları: Eğlence komutlarını gösterir.")
 
 	message.channel.send(embed)
 
