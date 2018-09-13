@@ -1,2 +1,2 @@
 worker node bot.js
-npm i ytdl-core node-opus
+worker npm i ytdl-core node-opus
