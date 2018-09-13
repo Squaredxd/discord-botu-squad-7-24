@@ -16,7 +16,7 @@ exports.run = function(client, message) {
 exports.conf = {
   enabled: true,
   guildOnly: false,
-  aliases: ['ping','p'],
+  aliases: [],
   permLevel: 0
 };
 
