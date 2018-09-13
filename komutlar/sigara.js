@@ -4,7 +4,7 @@ const Discord = require('discord.js');
 exports.run = function(client, message) {
         embed: {
             color: 0x00AE86,
-            description: `${message.author.tag} sigara içecekken durdurdum :D`,
+            description: `${message.author.tag} sigara içecekken durdurdum!`,
             image: {
                 url: "https://imgyukle.com/i/S1qAj"
             }
