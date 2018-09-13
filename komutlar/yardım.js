@@ -6,9 +6,9 @@ exports.run = function(client, message) {
     const embed = new Discord.RichEmbed()
         .setDescription("**Yardım Menüsü**")
         .setColor(0x00A385)
-        .addField("++eğlencekomutları:", "Eğlence Komutlarını Gösterir.", true)
-        .addField("++anakomutlar",`
-        "Ana Komutları Gösterir.",` true)
+        .addField("++anakomutlar:", "Ana Komutları Gösterir.", true)
+        .addField("++eğlencekomutları:", `
+        *Eğlence Komutlarını Gösterir`, true)
                   
          
     
