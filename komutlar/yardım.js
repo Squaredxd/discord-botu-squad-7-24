@@ -8,7 +8,7 @@ exports.run = function(client, message) {
         .setColor(0x00A385)
         .addField("++eğlencekomutları:", "Eğlence Komutlarını Gösterir.", true)
         .addField("++anakomutlar",`
-        "Ana Komutları Gösterir.", true)
+        "Ana Komutları Gösterir.",` true)
                   
          
     
