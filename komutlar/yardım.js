@@ -21,7 +21,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'ping',
-  description: 'Botun pingini gösterir',
-  usage: 'ping'
+  name: 'yardım',
+  description: 'yardım menüsü',
+  usage: 'yardım'
 };
