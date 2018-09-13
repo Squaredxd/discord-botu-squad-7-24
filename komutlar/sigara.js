@@ -6,7 +6,8 @@ exports.run = function(client, message) {
 	const embed = new Discord.RichEmbed()
 		.setDescription("**Sigara Sağlığa Zararlıdır -Solar**")
 		.setImage("https://imgyukle.com/i/S1qAj")
-
+	
+	message.channel.send(embed)
 };
 
 exports.conf = {
