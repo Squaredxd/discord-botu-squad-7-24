@@ -7,7 +7,7 @@ exports.run = function(client, message) {
         .setDescription("**Yardım Menüsü**")
         .setColor(0x00A385)
         .addField("++eğlencekomutları:", "Eğlence Komutlarını Gösterir.", true)
-        .addField("++anakomutlar",´
+        .addField("++anakomutlar",`
         "Ana Komutları Gösterir.", true)
                   
          
